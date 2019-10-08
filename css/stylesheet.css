@@ -1,0 +1,563 @@
+body {
+    @import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Lato&display=swap')
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Lato', sans-serif;
+    }
+
+
+.caja-menu{
+overflow: hidden;
+}
+.navegacion ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.navegacion ul li {
+        border-bottom: 1px solid white;
+        padding: 20px;
+    text-align: center;
+    font-family:  'Fjalla One', sans-serif;
+
+}
+#ogol{
+    width: 200px;
+
+}
+.boton{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: t;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+.button{
+    float: right;
+    padding-top: 20px;
+    margin-right: 30px;
+}
+.button img{
+    width: 50px
+        
+}
+.navegacion ul li:hover{
+    background-color: rgba(177, 180, 100, 0.44);
+    
+}
+.navegacion{
+     background-color: #847E7B;
+    width: 100%;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: table;
+}
+.clases{
+    background-image: url(../images/clases.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+}
+.clases h1{
+    text-align: center;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bold;
+    font-size: 37px;
+    padding-top: 310px;
+    margin: 0;
+}
+.ondo{
+     background-image: url(../images/ni%C3%B1osmascara.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.circulito{
+    background-color: rgba(255, 255, 255, 0.94);
+      width: 400px;
+      height: 400px;
+      border-radius: 50%;
+    padding: 40px;
+    text-align: center;
+            margin-top: 150px;
+}
+
+.centrar{
+    display: table;
+    margin: auto;
+    padding: 20px;
+    
+}
+.circulito h2 {
+    color: #F5B10F;
+    margin-top: 100px;
+}
+.circulito p {
+    color: #847E7B;
+}
+#circulito{
+        text-align: center;margin-top: 20px;
+    display: table;
+    margin: auto;
+}
+.ondo2{
+    display: table;
+    margin: auto;
+}
+#circulito h2{
+        color: #F5B10F;
+}
+#circulito p{
+       color: #847E7B;
+}
+.tructu h2{
+     text-align: center;
+    color: #847e7b;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bold;
+    font-size: 37px;
+
+}
+
+.ondo2 img{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    display: table;
+    margin: auto;
+}
+.ondo2 h2{
+    margin: auto
+}
+.ondo1{
+     background-image: url(../images/kidsmile.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.instructores{
+    display: table;
+    margin: auto;
+    text-align: center;
+}
+.instructores h2{
+     font-family: 'Fjalla One', sans-serif;
+    font-size: 37px;
+}
+.instructores h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color: #F5B10F
+}
+.abonnement{
+    background-color: #F5B10F;
+    text-align: center;
+    padding: 40px;
+    color: white;
+    width: 100%;
+
+}
+.contact{
+ display: table;
+    margin: auto;
+    border: 1px solid white;
+    
+}
+.contact button{
+    font-family: 'fjalla one';
+    color: #ffffff;
+    font-size: 20px;
+      border: none;
+  padding: 1px 20px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+    background-color: transparent;   
+}
+.contact button:hover{
+    color: #f5b10f;
+    background-color: white;
+        padding: 11px 20px;
+}
+.contact input{
+    padding: 15px 20px;
+    margin: 0;
+    text-decoration: none;
+          border: none;
+     font-family: 'Lato', sans-serif;
+    
+}
+.centracion{
+    background-color: #2C2C2C;
+    display: table;
+    margin: auto;
+    text-align: center;
+    color: white;
+    width: 100%
+}
+.partone img{
+    width: 250px;
+    padding: 10px;
+}
+.partone{
+    padding: 0 20px;
+}
+.partos{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid white;
+    margin: 20px;
+}
+.partos a{
+        text-decoration: none;
+    color: white;
+    
+}
+.partos a:hover{
+    color: #f5b10f;
+}
+.partosero{
+    padding: 20px;
+}
+.partosuno{
+    padding: 20px;
+}
+.footerderechos{
+    background-color: black;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+.centracion:last-child{
+    margin: 0px;
+    padding: 0px; color: aliceblue;
+}
+
+/*ESTILOS PARA TABLETA*/
+@media screen and (min-width: 768px){
+    .circulito{
+    background-color: rgba(255, 255, 255, 0.94);
+      width: 400px;
+      height: 400px;
+      border-radius: 50%;
+    padding: 40px;
+        margin-top: 150px;
+    float: right;
+}
+    .centrar{
+    float: right;
+    padding: 20px;
+    
+}
+    .ondo2 img{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    float: left;
+}
+    #circulito{
+        text-align: center;
+        margin-top: 20px;
+    float: right;
+        width: 40%;
+        margin-top: 120px;
+    }
+        .instructores{
+    display: flex;
+            flex-wrap: wrap;
+            
+}
+    .boite{
+        width: 50%;
+;
+    }
+    #esneider{
+        display: table;
+        margin: auto;
+    }
+    .button img{
+    visibility: visible;
+}
+}
+/*ESTILOS PARA PC*/
+@media screen and (min-width:960px){
+    .ondo2{
+        display: flex;
+        justify-content: space-between;
+    }
+        .circulito{
+    float: left;
+    padding: 20px;
+            margin-top:180px; 
+    
+}
+    .centrar{
+        float: left;
+        margin-left: 40px;
+    }
+     .boite{
+        width: 30%;
+         padding: 10px;
+}
+        #esneider{
+
+    }
+    .centracion{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 40px;
+    }
+    .partos{
+    display: flex;
+    justify-content: center;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    margin: 20px;
+        border-bottom: 2px solid transparent;
+    height: 80%;}
+    
+        
+        .partwo{
+            padding: 10px;
+            margin-right: 30px
+        }
+.navegacion {
+  
+    background-color: transparent;; 
+    font-family: sans-serif;
+    font-size: 20px;
+overflow: hidden;
+     
+    
+}
+
+
+.navegacion ul{
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+    list-style-type: none;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 50px
+    
+}
+
+
+.navegacion a{
+    
+   text-decoration: none;
+    color: #94A09E;
+    left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 8px 10px 0px 0px;
+    
+}
+.button img{
+    visibility: hidden;
+}
+.caja-menu{
+    position: relative;
+}
+
+.oci img{ 
+right: 45%;
+    position: absolute;
+    top: 0%
+}
+
+
+    }
+
+
+
+/*ESTILOS PARA SECCION DE ESPACIOS*/
+
+.lilo{
+    background-image: url(../images/espaciobanner.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+}
+.lilo h1{
+    text-align: center;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bold;
+    font-size: 37px;
+    padding-top: 310px;
+    margin: 0;
+}
+
+
+
+
+.teacolo{
+background-color: #F1F1F1;
+    padding-bottom: ;
+    overflow: hidden;
+}
+.theteathre{
+    display: table;
+    margin: auto;
+    color: #5b5b5b;
+     font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+
+}
+.bloquertasion{
+        
+}
+.cartasion{
+  display: table;
+    margin: auto;
+        box-shadow: 0 0px 5px black;
+    margin-top: 20px;
+    width: 500px;
+      margin-bottom: 30px;
+    background-color: white;
+}
+.cartasion img{
+    width: 100%;
+}
+.txt-cartasion{
+    padding: 25px;
+}
+.txt-cartasion h2{
+     font-family: 'Fjalla One', sans-serif;
+    margin: 0;
+    color: #5B5B5B;
+    font-size: 24px;
+    font-weight: normal;
+}
+.txt-cartasion h3{
+     font-family: 'Lato', sans-serif;
+    color: #f5b10f;
+    margin: 0;
+     font-size: 18px;
+    border-bottom: 1px solid  #f5b10f;
+    padding-bottom: 5px;
+    font-weight: normal;
+}
+.txt-cartasion p{
+     font-family: 'Lato', sans-serif;
+      color: #5B5B5B;
+     font-size: 14px;
+    
+}
+.lebouton a{
+    display: table;
+    margin: auto;
+    color: white;
+    background-color: #f5b10f;
+    width: 20%;
+    height: 5px;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    text-decoration: none;
+
+}
+.lebouton a:hover{
+    color: #f5b10f;
+    background-color: white;
+}
+.reacolo{
+    background-color: #DBBE99;
+    overflow: hidden;
+}
+.theresta{
+       display: table;
+    margin: auto;
+    color: white;
+     font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+    
+}
+section#video-container {
+  margin-top: 0px;
+}
+
+#video-container  {
+  position: relative;
+  width: 100%;
+  height: 560px;
+  overflow: hidden;
+  z-index: 1;
+
+}
+
+#video-container video,
+.video-overlay {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#video-container .video-overlay {
+  z-index: 9999;
+  background: rgba(0,0,0,0.7);
+  width: 100%;
+}
+
+#video-container .video-content {
+  z-index: 99999;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#video-container .video-content .inner {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+#video-container .video-content .inner span {
+  font-size: 17px;
+  display: block;
+  margin: 0px;
+  color: #fff;
+}
+
+#video-container .video-content .inner h2 {
+  margin-bottom: 0px;
+  margin-top: 14px;
+  font-size: 30px;
+  font-weight: normal;
+  color: #fff;
+  letter-spacing: 0.5px;
+        font-family: 'Fjalla One', sans-serif;
+}
+.inner a img{
+    padding: 20px;
+
+
+
+
+
+  
+
