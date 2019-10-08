@@ -401,9 +401,29 @@ right: 45%;
     padding-top: 310px;
     margin: 0;
 }
+.wrapper h2{
+        font-family: 'Fjalla One', sans-serif;
+    font-weight: bold;
+    text-align: center;    color: #5b5b5b;
+       font-size: 30px;
+}
 
-
-
+.item h3{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bold;
+     color: white;
+    margin-bottom: 5px;
+transform:translate(10px, -120px)
+    
+}
+.item h4{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bold;
+     color: #F1F1F1;
+    margin: 0;
+    transform:translate(10px, -120px)
+    
+}
 
 .teacolo{
 background-color: #F1F1F1;
@@ -554,10 +574,229 @@ section#video-container {
 }
 .inner a img{
     padding: 20px;
+}
+/*ESTILOS PARA TABLETA*/
+@media screen and (min-width: 768px){
+    
+    .bloquertasion{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .cartasion{
+        width: 48%
+    }
+
+}
+/*ESTILOS PARA PC*/
+
+@media screen and (min-width:960px){
+    
+        .cartasion{
+        width: 30%
+    }
+    
+}
+
+/*ESTILOS PAGINA DE EVENTOS*/
+
+.evenement-txt h1{
+     text-align: center;
+    color: #5B5B5B;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bold;
+    font-size: 37px;
+    padding-top: 310px;
+    padding: 20px;
+        background-color:  #F1F1F1;
+    margin: 0;
+}
+.evenemont{
+    background-color:  #F1F1F1;
+}
+.evenemontcart{
+  display: table;
+    margin: auto;
+        box-shadow: 0 0px 5px black;
+    width: 500px;
+      margin-bottom: 30px;
+
+}
+.evenemont img{
+    width: 100%;
+}
+.txt-evenemont{
+    padding: 25px;
+}
+.txt-evenemont h2{
+     font-family: 'Fjalla One', sans-serif;
+    margin: 0;
+    color: #5B5B5B;
+    font-size: 26px;
+    font-weight: normal;
+}
+.txt-evenemont h3{
+     font-family: 'Lato', sans-serif;
+    color: #f5b10f;
+    margin: 0;
+     font-size: 15px;
+    padding-bottom: 5px;
+    font-style: italic;
+}
+.txt-evenemont p{
+     font-family: 'Lato', sans-serif;
+      color: #5B5B5B;
+     font-size: 14px;
+    
+}
+
+.convives{
+      display: table;
+    margin: auto;
+
+}
+.convives h2{
+         font-family: 'Fjalla One', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    color: #847E7B;
+    
+}
+#conviva{
+          width: 400px;
+} 
+.convivesec img{
+    width: 100%;
+}
+.convives-txt{
+    font-family: 'Lato', sans-serif;
+}
+.convives-txt h3{
+    font-weight: bold;
+        color: #f5b10f;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.convives-txt h3 span{
+    font-weight: lighter;
+        font-style: italic;
+    font-size: 20px;
+}
+.convives-txt p{
+    color: #5B5B5B;
+    font-size: 14px;
+    
+}
+.inter-txt h3 span{
+    color: #969292;
+}
+.inter-txt{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.inter-txt img{
+
+}
+#noks{
+    
+}
+.icote{
+    border-bottom: 2px solid #f5b10f;
+    padding: 5px 0
+}
+.obration{
+    display: table;
+    margin: auto;
+    text-align: 
+}
+.fedateico{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.fedateicotos-txt{
+padding-right: 40px;
+}
+.obr-txt{
+    font-family: 'Fjalla One', sans-serif;
+}
+.obr-txt p{
+        color: #5B5B5B;
+}
+.generos{
+    background-color: #5B5B5B;
+    
+    padding: 20px;
+}
+.generos a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+        font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;
+}
+.generos a:hover{
+    color: #f5b10f;
+}
+.bannerteatro{
+    background-image: url(../images/Backsillasteatro.jpg);
+;
+    background-repeat: no-repeat;
+    background-size: cover;
+overflow: hidden;
+
+}
+.cosillas{
+display: table;
+    margin: auto;
+}
+.cosillas img{
+
+}
+.cosillas h2{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Fjalla One', sans-serif;
+}
 
 
+/*ESTILOS PARA TABLETA*/
+@media screen and (min-width: 768px){
+    
+    .evenemont{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .evenemontcart{
+      width: 45%;
+  display: table;
+    margin: auto;
+        box-shadow: 0 0px 5px black;
+      margin-bottom: 30px;
+    }
+    #evecar{
+display: table;
+        margin: auto;
+        width: 100%;
+        text-align: center
+    }
+}
+/*ESTILOS PARA PC*/
 
-
-
-  
-
+@media screen and (min-width:960px){
+    
+    .cronograma{
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    .convivesec img{
+    width: 80%;
+}
+    #conviva{
+          width: 15%;
+        padding: 10px;
+} 
+}
