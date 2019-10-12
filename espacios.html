@@ -2,13 +2,20 @@
 <html lang="en">
 <head>
  <meta charset="utf-8">
-     <title>Eventos</title>
+     <title>Espacios</title>
 	<meta name="author" content="Mario Angarita">
 	<meta name="description" content="Página de Teatrova ESPACIO">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	
+	
+	<link type="text/css" href="css/bootstrap-grid.min.css" rel="stylesheet">
+
 	<link type="text/css" href="css/owl.carousel.min.css" rel="stylesheet">
 <link type="text/css" href="css/owl.theme.default.min.css" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	
+
 
 
 
@@ -18,6 +25,7 @@
 	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="js/owl.carousel.min.js"></script>
 <script type="text/javascript" src="js/jquer.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
 
 
 
@@ -25,24 +33,29 @@
 	</head>
 	<body>
 	    <header>
+	    <div class="contenedor">
+	        <div class="">
+	    
 		<div class="caja-menu">
 		   <div class="oci">
-		       <img id="ogol" src="images/logocel.png" alt="Logo Teatrova">
+		       <a href="index.html"><img id="ogol" src="images/logocel.png" alt="Logo Teatrova"></a>
                  <a class="button" href="#"><img  src="images/barracel_1.png" alt= "Icono de navegación"></a>
 			    <nav class="navegacion">
 			    <ul>
-				<li><a class="boton" href="index.html">Inicio</a></li>
-				<li><a class="boton" href="#">Nosotros</a></li>
-				<li><a class="boton" href="espacios.html">Espacios</a></li>
-				<li><a class="boton" href="#">Galería</a></li>
-				<li><a class="boton" href="#">Menú</a></li>
-				<li><a class="boton" href="eventos.html">Eventos</a></li>
-				<li><a class="boton" href="#">Clases</a></li>
-				<li><a class="boton" href="#">Componentes</a></li>
-				<li><a class="boton" href="#">Contacto</a></li>
+				<li><a  class="boton  "href="index.html">Inicio</a></li>
+				<li><a class="boton " href="nosotros.html">Nosotros</a></li>
+				<li><a class="boton active" href="espacios.html">Espacios</a></li>
+				<li><a class="boton " href="">Galería</a></li>
+				<li><a class="boton " href="menu.html">Menú</a></li>
+				<li><a class="boton " href="eventos.html">Eventos</a></li>
+				<li><a class="boton " href="clases.html">Clases</a></li>
+				<li><a class="boton " href="#">Horario</a></li>
+				<li><a class="boton " href="#">Contacto</a></li>
 			</ul>
 			</nav>
     </div>
+</div>
+</div>
 </div>
 	</header>
     <main>
@@ -52,7 +65,8 @@
 	    </div>
 	</section>
 	<section>
-	    <div class="wrapper">
+  
+	    <div class="wrapper padi">
         <h2>{ Un espacio para ti }</h2>
 	       <div class="owl-carousel owl-theme">
                 <div class="item"><img src="images/teatro1.png" alt="Vista del escenario"><h3>Lorem ipsum</h3><h4>Lorem ipsum</h4></div>
@@ -70,11 +84,12 @@
             </div>
 	        
 	    </div>
-	</section>
+	</section>  
 	<section class="teacolo">
      <div class="theteathre">
 	     <h2> { El Restaurante }</h2>
 	     </div>
+	     <div class="contenedor">
 	     <div class="bloquertasion">
 	     <div class="cartasion">
 	         <img src="images/restaurante1.png" alt="Restaurante vista barra">
@@ -106,7 +121,7 @@
 	         <div class="lebouton">
 	             <a href="#"><h4>Ver más</h4></a>
 	         </div>
-	       </div>
+             </div></div>
 
 	     </div>
 	 </section>
@@ -114,6 +129,7 @@
      <div class="theresta">
 	     <h2> { El Teatro }</h2>
 	     </div>
+	     <div class="contenedor">
 	     <div class="bloquertasion">
 	     <div class="cartasion">
 	         <img src="images/espaciotea1.png" alt="Restaurante vista barra">
@@ -145,6 +161,7 @@
 	         <div class="lebouton">
 	             <a href="#"><h4>Ver más</h4></a>
 	         </div>
+	         </div>
 	       </div>
 
 	     </div>
@@ -165,12 +182,21 @@
 	               
 	</main>
 		<footer>
-	    <div class="centracion">
+    <div class="roloc">
+	    <div class="centracion ">
         <div class="partone">
-	        <img src="images/logocel.png" alt="Logo de Teatrova">
-	        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque placeat modi beatae consectetur ut ab.</p>
+	        <a href="index.html"><img src="images/logocel.png" alt="Logo de Teatrova"></a>
+	        <p>TEATROVA desarrolla una actividad creativa permanente con la creación de textos que aportan a la dramaturgia colombiana y montajes estrenos y temporadas.</p>
+	       
+	                <div class="iconosfooter">
+
+	            <a  href="https://www.facebook.com/" target="_blank"><img id="facebook" src="images/iconofacebook.png" alt="icono de logo de facebook"></a>
+	            <a href="https://www.instagram.com/" target="_blank"><img src="images/iconoinsta.png" alt="icono de logo de instagram"></a>
+	            <a href="https://www.twitter.com/" target="_blank"><img src="images/iconotwitter_1.png" alt="icono de logo de twitter"></a>
+	            <a href="https://www.whatsapp.com/" target="_blank"><img src="images/iconowhats.png" alt="icono de logo de whatsapp"></a>
 	        </div>
-	        <div >
+	         </div>
+	        <div>
            <h2>Links</h2>
            <div class="partos">
             <div class="partosero">
@@ -197,15 +223,25 @@
 	            <p>12 PM a 10PM</p>
 	            </div>
 	            </div>
-	            <div class="footerderechos"><p> Copyright © 2019 Casa Teatrova. All Rights Reserved</p></div>
+	            <div class="footerderechos"><p> Copyright © 2019 Casa Teatrova. All Rights Reserved. Laura Bolaños y Mario Angarita</p></div></div>
 	</footer>
-
+<script>
+// Add active class to the current button (highlight it)
+var header = document.getElementById("navegacion");
+var btns = header.getElementsByClassName("boton");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace("active", "");
+  this.className += " active";
+  });
+}	</script>
 <script>$(document).ready(function(){
   $(".button").click(function(){
     $(".navegacion").toggle();
   });
 });
-	</script>
+        </script>
 	
 	
 	<script>$('.owl-carousel').owlCarousel({
@@ -226,6 +262,7 @@
 })
 	
 	</script>
+
 
 </body>
 </html>

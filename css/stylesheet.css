@@ -3,9 +3,14 @@ body {
     @import url('https://fonts.googleapis.com/css?family=Lato&display=swap')
     font-family: 'Fjalla One', sans-serif;
     font-family: 'Lato', sans-serif;
+    margin: auto;
     }
 
-
+.contenedor{
+    width: 100%;
+    display: table;
+    margin: auto;
+}
 .caja-menu{
 overflow: hidden;
 }
@@ -33,6 +38,10 @@ overflow: hidden;
     font-family: 'Fjalla One', sans-serif;
 
 }
+.boton:hover{
+    color:  white;
+}
+
 .button{
     float: right;
     padding-top: 20px;
@@ -43,9 +52,11 @@ overflow: hidden;
         
 }
 .navegacion ul li:hover{
-    background-color: rgba(177, 180, 100, 0.44);
-    
+  background-color:#cbc2c2;
+    color: white;
+ border-radius: 5px;
 }
+
 .navegacion{
      background-color: #847E7B;
     width: 100%;
@@ -53,6 +64,11 @@ overflow: hidden;
     border-bottom-left-radius: 20px;
     display: table;
 }
+
+ .active, .boton:hover{
+    border-bottom: 2px solid  #F5B10F;
+}
+
 .clases{
     background-image: url(../images/clases.jpg);
     height: 100vh;
@@ -66,7 +82,7 @@ overflow: hidden;
     color: white;
     font-family: 'Fjalla One', sans-serif;
     font-weight: bold;
-    font-size: 37px;
+    font-size: 50px;
     padding-top: 310px;
     margin: 0;
 }
@@ -107,6 +123,7 @@ overflow: hidden;
 .ondo2{
     display: table;
     margin: auto;
+    padding: 40px
 }
 #circulito h2{
         color: #F5B10F;
@@ -193,13 +210,16 @@ overflow: hidden;
      font-family: 'Lato', sans-serif;
     
 }
+.roloc{
+        background-color: #2C2C2C;
+}
 .centracion{
-    background-color: #2C2C2C;
+
     display: table;
     margin: auto;
     text-align: center;
     color: white;
-    width: 100%
+    width: 80%
 }
 .partone img{
     width: 250px;
@@ -287,14 +307,14 @@ overflow: hidden;
 }
 /*ESTILOS PARA PC*/
 @media screen and (min-width:960px){
+   
+    
     .ondo2{
         display: flex;
         justify-content: space-between;
     }
-        .circulito{
-    float: left;
-    padding: 20px;
-            margin-top:180px; 
+        #circulito{
+width: 40%
     
 }
     .centrar{
@@ -372,15 +392,20 @@ overflow: hidden;
 }
 
 .oci img{ 
-right: 45%;
+right: 40%;
     position: absolute;
     top: 0%
 }
 
 
     }
-
-
+.iconosfooter img{
+    width: 60px;
+    padding: 10px;
+}
+#facebook{
+   width: 32px;
+}
 
 /*ESTILOS PARA SECCION DE ESPACIOS*/
 
@@ -397,7 +422,7 @@ right: 45%;
     color: white;
     font-family: 'Fjalla One', sans-serif;
     font-weight: bold;
-    font-size: 37px;
+    font-size: 50px;
     padding-top: 310px;
     margin: 0;
 }
@@ -408,6 +433,9 @@ right: 45%;
        font-size: 30px;
 }
 
+.padi{
+    padding: 20px 35px;
+}
 .item h3{
     font-family: 'Fjalla One', sans-serif;
     font-weight: bold;
@@ -598,20 +626,25 @@ section#video-container {
 }
 
 /*ESTILOS PAGINA DE EVENTOS*/
-
+.evenement-txt{
+                background-image: url(../images/bannerteatro.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 .evenement-txt h1{
-     text-align: center;
-    color: #5B5B5B;
+      text-align: center;
+    color: white;
     font-family: 'Fjalla One', sans-serif;
     font-weight: bold;
-    font-size: 37px;
-    padding-top: 310px;
-    padding: 20px;
-        background-color:  #F1F1F1;
+    font-size: 50px;
+    padding-top: 380px;
     margin: 0;
 }
 .evenemont{
     background-color:  #F1F1F1;
+    padding-top: 50px
 }
 .evenemontcart{
   display: table;
@@ -663,7 +696,7 @@ section#video-container {
     
 }
 #conviva{
-          width: 400px;
+          width: 100%;
 } 
 .convivesec img{
     width: 100%;
@@ -734,7 +767,7 @@ padding-right: 40px;
     color: white;
     text-align: center;
         font-family: 'Fjalla One', sans-serif;
-    font-size: 30px;
+    font-size: 2 0px;
 }
 .generos a:hover{
     color: #f5b10f;
@@ -766,13 +799,12 @@ display: table;
 @media screen and (min-width: 768px){
     
     .evenemont{
-        display: flex;
+    display: flex;
         flex-wrap: wrap;
     }
     .evenemontcart{
-      width: 45%;
-  display: table;
-    margin: auto;
+      width: 40%;
+
         box-shadow: 0 0px 5px black;
       margin-bottom: 30px;
     }
@@ -782,21 +814,943 @@ display: table;
         width: 100%;
         text-align: center
     }
+    
+.contenedor{
+    width: 100%;
+    display: table;
+    margin: auto;
+}
+        .cronograma{
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+        align-items: baseline;
+    }
+    .convivesec img{
+    width: 100%;
+}
+    .convives{
+        width: 30%
+    }
+    #conviva{
+          width: 100%;
+        padding: 10px;
+}
+
 }
 /*ESTILOS PARA PC*/
 
 @media screen and (min-width:960px){
-    
+    .contenedor{
+    width: 80%;
+    display: table;
+    margin: auto;
+}
     .cronograma{
         display: flex;
         justify-content: space-between;
         overflow: hidden;
+        align-items: baseline;
     }
     .convivesec img{
-    width: 80%;
+    width: 70%;
 }
+    .convives{
+        width: 30%
+    }
     #conviva{
-          width: 15%;
+          width: 100%;
         padding: 10px;
 } 
+      .evenemontcart{
+      width: 30%;
+
+        box-shadow: 0 0px 5px black;
+      margin-bottom: 30px;
+    }
+    #evecar{
+display: table;
+        margin: auto;
+width: 30%;
+        text-align: center
+    }
 }
+
+/*Estilos para pagina de index*/
+
+.bannersito{
+    background-image: url(../images/FOTOS%20DE%20INTEGRACI%C3%93N_Mesa%20de%20trabajo%201.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.textico{
+    padding: 10px 20px 10px  40px;
+    transform: translateY(-100%);
+    text-align: center;
+    
+}
+
+
+.textico h1 {
+  text-decoration: none;
+    font-family: "fjalla one", sans-serif;
+    letter-spacing: 8px;
+    font-size: 50pt;
+    color: white;
+
+        
+}
+
+.textico p{
+    text-decoration: none;
+    font-family: "lato", sans-serif;
+    font-style: italic;
+    font-size: 20pt;
+    color: white;
+    transform: translateY(-100%);
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+/*cuadro de texto*/
+
+
+
+
+.cuadrito{
+   margin: 10% 10% 10% 10%; 
+   padding: 7% 7% 7% 7%;
+   background-color: white;
+   border-radius: 60px;
+   transform: translateY(-50%);
+   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.31);
+}
+
+
+.solotexto{
+    text-align: center;
+}
+
+.solotexto h1{
+      font-family: "fjalla one", sans-serif;
+    letter-spacing: 4px;
+    font-size:30pt;
+    color: #646464;
+    
+}
+
+.solotexto h2{
+  
+    font-size:20pt;
+    color: #646464;
+    transform: translateY(-110%);
+}
+
+.solotexto p{
+    color: #646464;
+     transform: translateY(-0%);
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    font-size: 18pt;
+}
+
+.lolxd a{
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    
+    background-color: #f5b10f;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    transition: all.5s;
+}
+.bannersito2{
+    background-image: url(../images/FOTOS%20DE%20INTEGRACI%C3%93N-02.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+     position: 
+     
+}
+
+
+.textico2{
+    padding: 20px 10px 10px  40px;
+    transform: translateY(-120%);
+    text-align: center;
+    
+    
+}
+
+
+.textico2 h2 {
+  text-decoration: none;
+    font-family: "fjalla one", sans-serif;
+    letter-spacing: 6px;
+    font-size: 30pt;
+    color: white;
+
+}
+.textico2 p{
+    text-decoration: none;
+    font-family: "lato", sans-serif;
+    font-size: 18pt;
+    color: white;
+   
+    text-align: center;
+    letter-spacing: 4px;
+    
+} 
+
+
+.flechis{
+    transform: translateY(130px)
+}
+
+/*RECOMEDADOS*/
+
+
+.pop{
+    transform: translateY(-325px);
+    padding: 10px 10px 10px 60px;
+    text-align: center;
+    font-family: "fjalla one", sans-serif;
+    letter-spacing: 5px;
+    color: #525252;
+    font-size: 28pt;
+}
+
+.cuadradote1{
+     padding: 7% 7% 7% 7%;
+}
+
+.cuadrito1{
+   margin: 10% 10% 10% 10%; 
+   padding: 7% 7% 7% 7%;
+   background-color: white;
+   border-radius: 60px;
+   transform: translateY(-20%);
+   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.31);
+}
+
+.solotexto3{
+    text-align: center;
+}
+
+.solotexto3 h1{
+      font-family: "fjalla one", sans-serif;
+    letter-spacing: 4px;
+    font-size:28pt;
+    color: #646464;
+    
+}
+
+
+.solotexto3 p{
+    color: #646464;
+     transform: translateY(-0%);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 15pt;
+}
+
+
+.solotexto3 h4{
+    font-family: "lato", sans-serif;
+    color:  #f5b10f;
+    font-size: 20pt;
+    font-weight: 800;}
+
+.fotus ul li{
+    list-style-type: none;
+    }
+
+.fotus2 h2 {
+    display: flex;
+    justify-content: center;
+    color: #f5b10f;
+     font-weight: 800;
+}
+.fotus h2 {
+    display: flex;
+    justify-content: center;
+    color: #f5b10f;
+     font-weight: 800;
+}
+
+
+.fotus2 h4 {
+    display: flex;
+    justify-content: center;
+    color:  #f5b10f;
+     font-weight: 800;
+    
+}
+
+/*platillos*/
+
+.cuadrito3{
+   margin: 10% 10% 10% 10%; 
+   padding: 7% 7% 7% 7%;
+   background-color: white;
+   border-radius: 60px;
+   transform: translateY(-10%);
+   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.31);
+    text-align: center;
+}
+
+
+
+.solotexto4 h1{
+    font-family: "fjalla one", sans-serif;
+    letter-spacing: 4px;
+    font-size:40pt;
+    color: #646464;
+    
+}
+
+
+.fotusoo p{
+    color: #646464;
+     transform: translateY(-0%);
+    display: flex;
+    text-align: center;
+    justify-content:;
+    font-size: 15pt;
+}
+   
+
+
+
+.fotusoo2 p{
+    color: #646464;
+     transform: translateY(-0%);
+    display: flex;
+    text-align: left;
+    justify-content:;
+    font-size: 15pt;
+    
+}
+
+.bistec{
+    color: #646464;
+    display: flex;
+    text-align: left;
+    justify-content:;
+    font-size: 15pt;
+    
+}
+
+.fotusoo1 ul li{
+    list-style-type: none;
+    }
+
+.fotusoo1 p {
+     color: #646464;
+     font-size: 15pt;
+    text-align: left;
+   }
+
+.fotusoo1 h2 {
+    display: flex;
+    align-content: flex-start;
+    color: #f5b10f;
+    font-weight: 800;
+}
+
+/*recuadro*/
+
+.recuadrado{
+    background-color:  #f5b10f;
+    margin-top: -250px;
+    text-align: center;
+}
+
+.cuadroamarillo{
+    padding: 70px 70px 70px 70px;
+}
+
+
+.cuadroamarillo h1{
+    font-family: "fjalla one", sans-serif;
+    color: white;
+    font-size: 30pt;
+    text-align: center;
+}
+
+.cuadroamarillo p{
+    font-family: "lato", sans-serif;
+    font-size: 15pt;
+    color: white;
+    
+    
+}
+
+/* AQUÍ COMIENZA EL MENÚ*/
+
+/*banner*/
+
+ .elbannersito{
+    background-image: url(../images/FOTOS%20DE%20INTEGRACI%C3%93N-24.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.eltextico{
+    padding: 10px 20px 10px  40px;
+    transform: translateY(-180%);
+    text-align: center;
+    
+}
+
+
+.eltextico h1 {
+  text-decoration: none;
+    font-family: "fjalla one", sans-serif;
+    letter-spacing: 8px;
+    font-size: 50pt;
+    color: white;
+
+        
+}
+
+
+/*cuadro de texto*/
+
+
+
+
+.elcuadrado{
+   margin: 10% 10% 10% 10%; 
+   padding: 7% 7% 7% 7%;
+   background-color: white;
+   border-radius: 60px;
+   transform: translateY(-10%);
+   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.31);
+}
+
+
+.onlytexto{
+    text-align: center;
+    
+}
+
+.onlytexto ul li{
+    list-style-type: none; 
+}
+
+.onlytexto h1{
+      font-family: "fjalla one", sans-serif;
+    letter-spacing: 1px;
+    font-size:20pt;
+    color: #646464;
+}
+
+.onlytexto h2{
+    font-family: "lato", sans-serif;
+    font-size:16pt;
+    text-align: left;
+    color: #f5b10f;;
+
+
+}
+
+.onlytexto p{
+    color: #646464;
+     transform: translateY(-0%);
+    display: flex;
+    text-align: ;
+    justify-content: center;
+    font-size: 12pt;
+}
+
+
+
+.lebistec{
+    color: #646464;
+     transform: translateY(-0%);
+    display: flex;
+    text-align:left;
+    justify-content: center;
+    font-size: 15pt;
+}
+
+
+/*PLATOS TRADICIONALES MENÚ*/
+
+
+
+.lecuadrito1{
+   margin: 10% 10% 10% 10%; 
+   padding: 2% 8% 7% 7%;
+   background-color: white;
+   border-radius: 60px;
+   transform: translateY(-15%);
+   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.31);
+}
+
+.lefotus{
+    padding: 0px 30px  0px 0px;
+}
+
+.lesolotexto3{
+    text-align: center;
+}
+
+.lesolotexto3 h1{
+    font-family: "fjalla one", sans-serif;
+    letter-spacing: 4px;
+    font-size:20pt;
+    color: #646464;
+    
+}
+
+.lesolotexto3 p{
+    color: #646464;
+     
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 12pt;
+}
+
+.lefotus ul li{
+    list-style-type: none;
+    }
+
+.lefotus h2 {
+    display: flex;
+    justify-content: flex-start;
+    color: #f5b10f;
+    font-size: 14pt;
+     font-weight: 800;
+    font-size: 14pt;
+}
+
+.lefotus p{
+    color: #646464;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    font-size: 12pt;
+}
+
+    
+/*ENTRADAS*/
+
+
+
+.sacuadrado{
+   margin: 10% 10% 10% 10%; 
+   padding: 7% 7% 0% 7%;
+   background-color: white;
+   border-radius: 60px;
+   transform: translateY(-15%);
+   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.31);
+}
+
+
+.saonlytexto{
+    text-align: center;
+    transform: translateX(-2%)
+    
+}
+
+.saonlytexto ul li{
+    list-style-type: none; 
+}
+
+.saonlytexto h1{
+      font-family: "fjalla one", sans-serif;
+    letter-spacing: 1px;
+    font-size:20pt;
+    color: #646464;
+}
+
+.saonlytexto h2{
+    font-family: "lato", sans-serif;
+    font-size:16pt;
+    text-align: left;
+    color: #f5b10f;;
+
+
+}
+
+.saonlytexto p{
+    color: #646464;
+    display: flex;
+    text-align: ;
+    justify-content: center;
+    font-size: 12pt;
+}
+
+/*bebidas*/
+
+.sacuadrado{
+    transform: translateY(-5%)
+}
+
+/*recuadro Amarillo del menu*/
+
+.lerecuadrado{
+    background-color:  #f5b10f;
+    margin-top: -200px;
+    text-align: center;
+}
+
+.lecuadroamarillo{
+    padding: 70px 70px 70px 70px;
+}
+
+
+.lecuadroamarillo h1{
+    font-family: "fjalla one", sans-serif;
+    color: white;
+    font-size: 30pt;
+    text-align: center;
+}
+
+.lecuadroamarillo p{
+    font-family: "lato", sans-serif;
+    font-size: 13pt;
+    color: white;
+    
+    
+}
+
+
+
+/*ESTILOS PARA PC*/
+@media screen and (min-width:960px)
+{
+    
+    .textico{
+    padding: 10px 20px;
+    transform: translateY(-140.9%);
+    text-align: left;
+    
+}
+    
+    .textico h1 {
+  text-decoration: none;
+    font-family: "fjalla one", sans-serif;
+    letter-spacing: 8px;
+    font-size: 65pt;
+    color: white;
+
+        
+}
+
+.textico p{
+    text-decoration: none;
+    font-family: "lato", sans-serif;
+    font-style: italic;
+    font-size: 18pt;
+    color: white;
+    transform: translateY(-183.6%);
+    text-align: left;
+    letter-spacing: 4px;
+    margin-top: 6.5%
+}
+
+ .textico img{
+        margin: auto;
+        margin-left: 47.6%;
+     
+    }
+    .solotexto h1{
+      font-family: "fjalla one", sans-serif;
+    letter-spacing: 4px;
+    font-size:40pt;
+    color: #646464;
+    
+}
+
+.solotexto h2{
+  
+    font-size:16pt;
+    color: #646464;
+    transform: translateY(-110%);
+}
+    
+.lolxd a{
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 15px;
+    
+    background-color: #f5b10f;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    transition: all.5s;
+}
+    
+    .lolxd a:hover{
+        background-color: black;
+        color: #f5b10f;
+        transition: 0.5s;
+    }
+    
+.textico2{
+    padding: 180px 10px 10px  40px;
+    transform: translateY(-140%);
+    text-align: center;
+    
+    
+}
+    
+
+.textico2 h2 {
+  text-decoration: none;
+    font-family: "fjalla one", sans-serif;
+    letter-spacing: 6px;
+    font-size: 36pt;
+    color: white;
+    
+
+}
+    
+.tectico2 h2 span{
+    font-size: 40pt;
+    
+    }
+.textico2 p{
+    text-decoration: none;
+    font-family: "lato", sans-serif;
+    font-size: 12pt;
+    color: white;
+   margin: auto;
+    width: 50%;
+    text-align: center;
+    letter-spacing: 4px;
+    
+} 
+
+
+.flechis{
+    transform: translateY(200px)
+}
+
+
+.cuadrito3{
+   margin: 10% 10% 10% 10%; 
+   padding: 7% 7% 7% 7%;
+   background-color: white;
+   border-radius: 60px;
+   transform: translateY(-10%);
+   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.31);
+    text-align: center;
+}
+
+
+
+.solotexto4 h1{
+    font-family: "fjalla one", sans-serif;
+    letter-spacing: 4px;
+    font-size:40pt;
+    color: #646464;
+    
+}
+
+
+.fotusoo p{
+    color: #646464;
+     transform: translateY(-0%);
+    display: flex;
+    text-align: center;
+    justify-content:;
+    font-size: 14pt;
+}
+   
+
+
+
+.fotusoo2 p{
+    color: #646464;
+     transform: translateY(-0%);
+    display: flex;
+    text-align: left;
+    justify-content:;
+    font-size: 15pt;
+    
+}
+
+.bistec{
+    color: #646464;
+    display: flex;
+    text-align: left;
+    justify-content:;
+    font-size: 15pt;
+    
+}
+    fotusoo1 ul li{
+    list-style-type: none;
+    }
+
+.fotusoo1 p {
+     color: #646464;
+     font-size: 15pt;
+    text-align: left;
+   }
+
+.fotusoo1 h2 {
+    display: flex;
+    align-content: flex-start;
+    color: #f5b10f;
+    font-weight: 800;
+}
+
+    .fotusoo1 {
+        width: 50%;
+        display: inline-block;
+        list-style: none;
+        
+    }
+/*********menu***********/
+    
+    
+    
+.onlytexto ul {
+    list-style-type: none;
+    width:55%;
+    margin: auto
+}
+
+.onlytexto h1{
+      font-family: "fjalla one", sans-serif;
+    letter-spacing: 1px;
+    font-size:20pt;
+    color: #646464;
+    position: relative;
+    
+}
+
+.onlytexto h2{
+    font-family: "lato", sans-serif;
+    font-size:16pt;
+    text-align: left;
+    color: #f5b10f;;
+
+
+}
+
+.onlytexto p{
+    color: #646464;
+     transform: translateY(-0%);
+    display: flex;
+    text-align: ;
+    justify-content: center;
+    font-size: 12pt;
+}
+    
+.lefotus{
+    padding: 0px 30px  0px 0px;
+    width: 40%;
+    display: flex;
+    display: inline-block;
+    list-style-type: none;
+    
+}
+
+.lesolotexto3{
+    text-align: center;
+}
+
+.lesolotexto3 h1{
+    font-family: "fjalla one", sans-serif;
+    letter-spacing: 4px;
+    font-size:20pt;
+    color: #646464;
+    
+}
+
+.lesolotexto3 p{
+    color: #646464;
+     
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 12pt;
+}
+
+.lefotus ul li{
+    list-style-type: none;
+    }
+
+.lefotus h2 {
+    display: flex;
+    justify-content: flex-start;
+    color: #f5b10f;
+    font-size: 14pt;
+     font-weight: 800;
+    font-size: 14pt;
+}
+
+.lefotus p{
+    color: #646464;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    font-size: 12pt;
+}
+    
+
+.saonlytexto{
+    text-align: center;
+    transform: translateX(-2%);
+    width: 60%;
+    margin: auto;
+}
+
+.saonlytexto ul li{
+    list-style-type: none; 
+}
+
+.saonlytexto h1{
+      font-family: "fjalla one", sans-serif;
+    letter-spacing: 1px;
+    font-size:20pt;
+    color: #646464;
+}
+
+.saonlytexto h2{
+    font-family: "lato", sans-serif;
+    font-size:16pt;
+    text-align: left;
+    color: #f5b10f;;
+
+
+}
+
+.saonlytexto p{
+    color: #646464;
+    display: flex;
+    text-align: ;
+    justify-content: center;
+    font-size: 12pt;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
